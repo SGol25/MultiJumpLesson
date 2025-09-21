@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 372056957}
   m_Layer: 0
   m_Name: Mov Platform 2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -886,7 +886,7 @@ Transform:
   m_GameObject: {fileID: 372056951}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 6.55, y: 1.64, z: 2.167}
+  m_LocalPosition: {x: 6.55, y: 1.554, z: 2.167}
   m_LocalScale: {x: 0.1148368, y: 0.78742653, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1109,7 +1109,7 @@ GameObject:
   - component: {fileID: 526168654}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1331,7 +1331,7 @@ GameObject:
   - component: {fileID: 578986242}
   m_Layer: 0
   m_Name: w (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1443,7 +1443,7 @@ GameObject:
   - component: {fileID: 655513140}
   m_Layer: 0
   m_Name: w (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1552,6 +1552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d8929b54a9e68346b8f20d478fe6644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bouncer
+  Jump: 500
 --- !u!1 &667721237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,7 +1716,7 @@ GameObject:
   - component: {fileID: 709503494}
   m_Layer: 0
   m_Name: w (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1841,7 +1842,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 19.22, y: 4.85, z: 2}
-  m_LocalScale: {x: 1, y: 11.725537, z: 4.3034}
+  m_LocalScale: {x: 1, y: 11.725537, z: 6.9332075}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1977952740}
@@ -1937,7 +1938,7 @@ GameObject:
   - component: {fileID: 721572958}
   m_Layer: 0
   m_Name: w (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1951,7 +1952,7 @@ Transform:
   m_GameObject: {fileID: 721572956}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 9.117002, y: 2.539, z: 2.167}
+  m_LocalPosition: {x: 9.117002, y: 2.24, z: 2.167}
   m_LocalScale: {x: 0.28487, y: 1.1417764, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2063,7 +2064,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 6.41, z: 2}
-  m_LocalScale: {x: 39, y: 1, z: 4.002913}
+  m_LocalScale: {x: 39, y: 1, z: 6.5996027}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1249907822}
@@ -2334,7 +2335,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16, y: 4.85, z: 2}
-  m_LocalScale: {x: 1, y: 11.725537, z: 4.3034}
+  m_LocalScale: {x: 1, y: 11.725537, z: 7.842086}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1977952740}
@@ -2558,7 +2559,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.93, y: 0, z: 2}
-  m_LocalScale: {x: 39.142105, y: 1, z: 4.002913}
+  m_LocalScale: {x: 39.142105, y: 1, z: 7.0723467}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1249907822}
@@ -3042,7 +3043,7 @@ Transform:
   m_GameObject: {fileID: 1080990583}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.1, y: 1.422, z: 2.4}
+  m_LocalPosition: {x: 9.1, y: 1.1229998, z: 2.4}
   m_LocalScale: {x: 0.28487, y: 2.3068008, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3362,7 +3363,7 @@ GameObject:
   - component: {fileID: 1191426992}
   m_Layer: 0
   m_Name: Mov Platform 1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3471,7 +3472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1158f4d2245e0cb4dabb0bd1653c83b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovingPlatform
-  Speed: 2
+  Speed: 1
   Distance: 4
   Up_Down: 0
 --- !u!1 &1216513184
@@ -3794,7 +3795,7 @@ GameObject:
   - component: {fileID: 1346390559}
   m_Layer: 0
   m_Name: Finish
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3905,7 +3906,7 @@ GameObject:
   - component: {fileID: 1496348087}
   m_Layer: 0
   m_Name: w (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4712,7 +4713,7 @@ GameObject:
   - component: {fileID: 2004445593}
   m_Layer: 0
   m_Name: w (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
